@@ -1,0 +1,20 @@
+2024/12/04 23:24:54 [error] 10804#18344: *1 CreateFile() "D:\NGINX\nginx\nginx-1.27.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/12/04 23:54:52 [notice] 15548#22404: signal process started
+2024/12/04 23:54:52 [error] 15548#22404: OpenEvent("Global\ngx_reload_9352") failed (2: The system cannot find the file specified)
+2024/12/04 23:57:35 [error] 14852#26492: *10 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.1.6:3001/", host: "localhost:8080"
+2024/12/04 23:57:37 [error] 14852#26492: *10 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.1.6:3003/", host: "localhost:8080"
+2024/12/04 23:57:39 [error] 14852#26492: *10 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://192.168.1.6:3002/", host: "localhost:8080"
+2024/12/04 23:57:39 [error] 14852#26492: *10 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://nodejs_cluster/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/12/05 00:13:54 [emerg] 16620#23556: cannot load certificate "D:\NGINX
+ginx-certs
+ginx-selfsigned.crt": BIO_new_file() failed (SSL: error:8000007B:system library::Unknown error:calling fopen(D:\NGINX
+ginx-certs
+ginx-selfsigned.crt, r) error:10080002:BIO routines::system lib)
+2024/12/05 00:16:11 [emerg] 2100#4584: cannot load certificate "D:\NGINX
+ginx-certs
+ginx-selfsigned.crt": BIO_new_file() failed (SSL: error:8000007B:system library::Unknown error:calling fopen(D:\NGINX
+ginx-certs
+ginx-selfsigned.crt, r) error:10080002:BIO routines::system lib)
+2024/12/05 00:18:36 [notice] 17652#20636: signal process started
+2024/12/05 00:22:44 [notice] 18452#11908: signal process started
+2024/12/05 00:24:19 [notice] 23664#3380: signal process started
